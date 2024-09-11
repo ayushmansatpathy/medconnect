@@ -1,7 +1,7 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Welcome to MedConnect.",
+    "paragraph": "Take charge of your career."
   },
   "About": {
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -21,17 +21,17 @@
   "Gallery": [
     {
       "title": "PRE-MED",
-      "largeImage": "img/portfolio/08-large.jpg",
+      "largeImage": "/premed",
       "smallImage": "img/portfolio/08-small.jpg"
     },
     {
       "title": "PRE-DENTAL",
-      "largeImage": "img/portfolio/09-large.jpg",
+      "largeImage": "/predent",
       "smallImage": "img/portfolio/09-small.jpg"
     },
     {
       "title": "PRE-PA",
-      "largeImage": "img/portfolio/07-large.jpg",
+      "largeImage": "/prepa",
       "smallImage": "img/portfolio/07-small.jpg"
     }
   ],

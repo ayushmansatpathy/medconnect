@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { Features } from "./components/features";
@@ -8,6 +9,9 @@ import { Gallery } from "./components/gallery";
 import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
+import { Premed } from "./components/premed"
+import { Predent } from "./components/predent";
+import { Prepa } from "./components/prepa";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -24,16 +28,32 @@ const App = () => {
   }, []);
 
   return (
-    <div>
-      <Navigation />
-      <Header data={landingPageData.Header} />
-      <About data={landingPageData.About} />
-      <Services data={landingPageData.Services} />
-      <Gallery data={landingPageData.Gallery} />
-      <Testimonials data={landingPageData.Testimonials} />
-      <Team data={landingPageData.Team} />
-      <Contact data={landingPageData.Contact} />
-    </div>
+    <Router>
+      <div>
+        <Navigation />
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <Header data={landingPageData.Header} />
+                <About data={landingPageData.About} />
+                {/* <Services data={landingPageData.Services} /> */}
+                <Gallery data={landingPageData.Gallery} />
+                {/* <Testimonials data={landingPageData.Testimonials} /> */}
+                <Team data={landingPageData.Team} />
+                <Contact data={landingPageData.Contact} />
+                {/* <Features data={landingPageData.Features} /> */}
+              </>
+            }
+          />
+          <Route path="/premed" element={<Premed />} />
+          <Route path="/predent" element={<Predent />} />
+          <Route path="/prepa" element={<Prepa />} />
+        </Routes>
+
+      </div>
+    </Router>
   );
 };
 
