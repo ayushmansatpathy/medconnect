@@ -53,6 +53,7 @@ export const Predent = () => {
         margin: '25px 0',
         padding: '25px',
         backgroundColor: '#ffffff',
+        width: '50%',
         borderRadius: '10px',
         boxShadow: '0 3px 6px rgba(0, 0, 0, 0.1)',
     };
@@ -107,9 +108,10 @@ export const Predent = () => {
                     <h1>PRE-DENT</h1>
                 </header>
 
+
                 <section style={sectionStyle}>
-                    <h2 style={titleStyle}>Chair Position</h2>
-                    <p style={textStyle}>Software Engineering Lead</p>
+                    <h2 style={titleStyle}>Chair</h2>
+                    <p style={textStyle}>Inayah Alam</p>
                 </section>
 
                 <section style={sectionStyle}>
@@ -126,6 +128,7 @@ export const Predent = () => {
                     </ul>
                 </section>
 
+
                 <section style={sectionStyle}>
                     <h2 style={titleStyle}>Opportunities</h2>
                     <ul style={listStyle}>
@@ -134,6 +137,7 @@ export const Predent = () => {
                         <li style={listItemStyle}>Research Assistant Role</li>
                     </ul>
                 </section>
+
 
                 <button style={buttonStyle} onClick={handleGoBack}>
                     Go Back Home

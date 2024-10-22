@@ -53,6 +53,7 @@ export const Premed = () => {
         margin: '25px 0',
         padding: '25px',
         backgroundColor: '#ffffff',
+        width: '50%',
         borderRadius: '10px',
         boxShadow: '0 3px 6px rgba(0, 0, 0, 0.1)',
     };

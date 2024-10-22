@@ -46,6 +46,7 @@ export const Prepa = () => {
         padding: '30px',
         backgroundColor: '#00796b',
         color: 'white',
+
         borderRadius: '10px 10px 0 0',
     };
 
@@ -54,6 +55,7 @@ export const Prepa = () => {
         padding: '25px',
         backgroundColor: '#ffffff',
         borderRadius: '10px',
+        width: '50%',
         boxShadow: '0 3px 6px rgba(0, 0, 0, 0.1)',
     };
 

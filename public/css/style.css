@@ -90,7 +90,7 @@ hr {
 }
 
 #menu.navbar-default {
-  background-color: #f5eadd;
+  background-color: #B0DE9A;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
@@ -300,10 +300,10 @@ header .intro-text {
 
 /* About Section */
 #about {
-  padding: 200px 0;
+  padding: 100px 0;
   height: 100vh;
   /* Set the height to 100% of the viewport height */
-  background: url(../img/med.png) no-repeat center center;
+  background: url(../img/mission.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -339,7 +339,7 @@ header .intro-text {
   content: "\f00c";
   font-family: "FontAwesome";
   color: #5ca9fb;
-  font-size: 11px;
+  font-size: 17px;
   font-weight: 300;
   padding-right: 8px;
 }
@@ -353,8 +353,10 @@ header .intro-text {
 }
 
 #about p {
-  line-height: 24px;
+  line-height: 30px;
   margin: 30px 0;
+  font-size: 17px;
+  color: black;
 }
 
 /* Services Section */
@@ -520,7 +522,7 @@ header .intro-text {
 }
 
 #team .team-img {
-  width: 240px;
+  height: 200px;
 }
 
 #team .thumbnail {
@@ -536,7 +538,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #b9d4ad 0%, #7eb265 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 

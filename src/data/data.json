@@ -4,7 +4,8 @@
     "paragraph": "Take charge of your career."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph1": "MedConnect UMass seeks to connect UMass students interested in Pre-Health careers to gain more hands-on experience within the medical field in order to have a better understanding of what their future could entail. We plan on hosting an ongoing speaker series from hospital employees on topics ranging from their various fields of medicine and their daily routine to health disparities in the community. The club will connect students to local hospitals and clinics to gain knowledge within different specializations to find their interests and delve deeper.",
+    "paragraph2": "Serving as the intermediary between the limited number of hospitals/clinics in the area and UMass Amherst, the club simplifies the volunteer application process and offers students an easier route to patient care and volunteer hours. MedConnect UMass prepares our members for a career in the healthcare field through invaluable experiences while shaping members to be a more competitive applicant for post-grad health education.",
     "Why": [
       "Lorem ipsum dolor",
       "Tempor incididunt",
@@ -22,17 +23,17 @@
     {
       "title": "PRE-MED",
       "largeImage": "/premed",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "smallImage": "img/TRACKS/5.png"
     },
     {
       "title": "PRE-DENTAL",
       "largeImage": "/predent",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "smallImage": "img/TRACKS/3.png"
     },
     {
       "title": "PRE-PA",
       "largeImage": "/prepa",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "smallImage": "img/TRACKS/1.png"
     }
   ],
   "Services": [
@@ -101,34 +102,54 @@
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "img": "img/eboard/chris.jpg",
+      "name": "Chris Santry",
+      "job": "Secretary"
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "img": "img/eboard/ayushman.jpeg",
+      "name": "Ayushman Satpathy",
+      "job": " IT Director"
     },
     {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "img": "img/eboard/rhea.jpg",
+      "name": "Rhea Mallya",
+      "job": "IT Director"
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "img/eboard/faithabbott.jpeg",
+      "name": "Faith Abbott",
+      "job": "Pre-PA Chair"
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "img/eboard/inayah.jpeg",
+      "name": "Inayah Alam",
+      "job": "Pre-Dental Chair"
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "img/eboard/kaushal.jpeg",
+      "name": "Kaushal Kasina",
+      "job": "Pre-Med Chair"
+    },
+    {
+      "img": "img/eboard/surya.jpeg",
+      "name": "Sooya Arunkumar",
+      "job": "Senior Events Coordinator"
+    },
+    {
+      "img": "img/eboard/meenakshi.jpg",
+      "name": "Meenakshi Rajesh",
+      "job": "Junior Events Coordinator"
+    },
+    {
+      "img": "img/eboard/shreya.jpeg",
+      "name": "Shreya Navuduri",
+      "job": "Fundraising Coordinator"
+    },
+    {
+      "img": "img/eboard/katherine.jpeg",
+      "name": "Katherine Poirier",
+      "job": "Fundraising Coordinator"
     }
   ],
   "Contact": {
