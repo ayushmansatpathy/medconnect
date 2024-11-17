@@ -3,7 +3,13 @@ import React from "react";
 export const Header = (props) => {
   return (
     <header id="header">
-      <div className="intro">
+      <div className="intro"
+      style={{
+        backgroundImage: "url('img/fp.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        height: "100vh",
+      }}>
         <div className="overlay">
           <div className="container">
             <div className="row">

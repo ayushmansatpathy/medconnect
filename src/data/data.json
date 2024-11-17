@@ -1,7 +1,7 @@
 {
   "Header": {
     "title": "Welcome to MedConnect.",
-    "paragraph": "Take charge of your career."
+    "paragraph": "From Campus to Clinic."
   },
   "About": {
     "paragraph1": "MedConnect UMass seeks to connect UMass students interested in Pre-Health careers to gain more hands-on experience within the medical field in order to have a better understanding of what their future could entail. We plan on hosting an ongoing speaker series from hospital employees on topics ranging from their various fields of medicine and their daily routine to health disparities in the community. The club will connect students to local hospitals and clinics to gain knowledge within different specializations to find their interests and delve deeper.",
@@ -21,7 +21,7 @@
   },
   "Gallery": [
     {
-      "title": "PRE-MED",
+      "title": "PRE-MEDICAL",
       "largeImage": "/premed",
       "smallImage": "img/TRACKS/5.png"
     },
@@ -31,7 +31,7 @@
       "smallImage": "img/TRACKS/3.png"
     },
     {
-      "title": "PRE-PA",
+      "title": "PRE-PHYSICIAN ASSISTANT",
       "largeImage": "/prepa",
       "smallImage": "img/TRACKS/1.png"
     }
@@ -99,6 +99,18 @@
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
       "name": "Johnathan Doe"
     }
+  ],
+  "Presidents": [
+  {
+    "img": "img/eboard/president1.jpg",
+    "name": "Alex Johnson",
+    "job": "President"
+  },
+  {
+    "img": "img/eboard/president2.jpg",
+    "name": "Jamie Smith",
+    "job": "Vice President"
+  }
   ],
   "Team": [
     {
