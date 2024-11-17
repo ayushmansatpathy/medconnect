@@ -2,168 +2,139 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 export const Predent = () => {
-    const navigate = useNavigate();
-
-    const containerStyle = {
-        display: 'flex',
-        justifyContent: 'space-between',
-        maxWidth: '100%',
-        margin: '9rem auto',
-        padding: '30px',
-        fontFamily: 'Arial, sans-serif',
-        backgroundColor: '#f0f4f7',
-        borderRadius: '10px',
-        boxShadow: '0 6px 12px rgba(0, 0, 0, 0.1)',
-    };
-
-    const contentStyle = {
-        flex: 1,
-        paddingRight: '20px',
-    };
-
-    const sidebarStyle = {
-        width: '180px',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'flex-start',
-    };
-
-    const sidebarButtonStyle = {
-        marginBottom: '15px',
-        padding: '10px',
-        backgroundColor: '#00796b',
-        color: 'white',
-        border: 'none',
-        borderRadius: '5px',
-        fontSize: '1rem',
-        cursor: 'pointer',
-        textAlign: 'center',
-        textDecoration: 'none',
-    };
-
-    const headerStyle = {
-        textAlign: 'center',
-        padding: '30px',
-        backgroundColor: '#00796b',
-        color: 'white',
-        borderRadius: '10px 10px 0 0',
-    };
-
-    const sectionStyle = {
-        margin: '25px 0',
-        padding: '25px',
-        backgroundColor: '#ffffff',
-        width: '50%',
-        borderRadius: '10px',
-        boxShadow: '0 3px 6px rgba(0, 0, 0, 0.1)',
-    };
-
-    const titleStyle = {
-        marginBottom: '15px',
-        fontSize: '1.5rem',
-        color: '#333',
-    };
-
-    const textStyle = {
-        fontSize: '1.1rem',
-        color: '#555',
-    };
-
-    const listStyle = {
-        listStyleType: 'none',
-        paddingLeft: '0',
-        fontSize: '1.1rem',
-    };
-
-    const listItemStyle = {
-        marginBottom: '12px',
-    };
-
-    const buttonStyle = {
-        display: 'block',
-        width: 'fit-content',
-        margin: '30px auto 0',
-        padding: '10px 20px',
-        backgroundColor: '#00796b',
-        color: 'white',
-        border: 'none',
-        borderRadius: '5px',
-        fontSize: '1.1rem',
-        cursor: 'pointer',
-        textDecoration: 'none',
-    };
-
-    const handleGoBack = () => {
-        navigate('/');
-    };
-
-    const handleTrackNavigate = (track) => {
-        navigate(`/${track}`);
+    const styles = {
+        container: {
+            fontFamily: "'Arial Black', sans-serif",
+            backgroundColor: "#d7ffd9",
+            color: "#1b5e20",
+            minHeight: "100vh",
+            padding: "30px",
+            paddingTop: "100px",
+        },
+        topSection: {
+            display: "flex",
+            alignItems: "flex-start",
+            marginBottom: "30px",
+            borderBottom: "5px solid #81c784",
+            paddingBottom: "20px",
+        },
+        image: {
+            width: "180px",
+            height: "180px",
+            borderRadius: "12px",
+            objectFit: "cover",
+            marginRight: "25px",
+            boxShadow: "0 6px 10px rgba(0, 0, 0, 0.15)",
+        },
+        contactInfo: {
+            flex: 1,
+        },
+        contactTitle: {
+            fontSize: "2rem",
+            fontWeight: "bold",
+            marginBottom: "15px",
+            color: "#2e7d32",
+        },
+        contactDetails: {
+            fontSize: "1.2rem",
+            lineHeight: "1.8",
+        },
+        generalInfoSection: {
+            marginTop: "40px",
+            padding: "30px",
+            backgroundColor: "#a5d6a7",
+            borderRadius: "12px",
+            boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+        },
+        generalInfoTitle: {
+            fontSize: "2.5rem",
+            marginBottom: "15px",
+            borderBottom: "4px solid #4caf50",
+            paddingBottom: "8px",
+            color: "#1b5e20",
+        },
+        generalInfoText: {
+            fontSize: "1.3rem",
+            lineHeight: "1.8",
+        },
+        list: {
+            fontSize: "1.2rem",
+            marginLeft: "20px",
+            marginTop: "10px",
+        },
+        footer: {
+            marginTop: "30px",
+            textAlign: "center",
+            fontSize: "1rem",
+            color: "#388e3c",
+            fontWeight: "bold",
+        },
     };
 
     return (
-        <div style={containerStyle}>
-            <div style={contentStyle}>
-                <header style={headerStyle}>
-                    <h1>PRE-DENT</h1>
-                </header>
-
-
-                <section style={sectionStyle}>
-                    <h2 style={titleStyle}>Chair</h2>
-                    <p style={textStyle}>Inayah Alam</p>
-                </section>
-
-                <section style={sectionStyle}>
-                    <h2 style={titleStyle}>Email</h2>
-                    <p style={textStyle}>email@example.com</p>
-                </section>
-
-                <section style={sectionStyle}>
-                    <h2 style={titleStyle}>Events</h2>
-                    <ul style={listStyle}>
-                        <li style={listItemStyle}>Hackathon - Sept 15, 2024</li>
-                        <li style={listItemStyle}>Tech Talk - Oct 1, 2024</li>
-                        <li style={listItemStyle}>Workshop - Nov 3, 2024</li>
-                    </ul>
-                </section>
-
-
-                <section style={sectionStyle}>
-                    <h2 style={titleStyle}>Opportunities</h2>
-                    <ul style={listStyle}>
-                        <li style={listItemStyle}>Internship at XYZ Corp</li>
-                        <li style={listItemStyle}>Summer Coding Camp</li>
-                        <li style={listItemStyle}>Research Assistant Role</li>
-                    </ul>
-                </section>
-
-
-                <button style={buttonStyle} onClick={handleGoBack}>
-                    Go Back Home
-                </button>
+        <div style={styles.container}>
+            {/* Top Section */}
+            <div style={styles.topSection}>
+                <img
+                    src="https://via.placeholder.com/180"
+                    alt="Chairperson"
+                    style={styles.image}
+                />
+                <div style={styles.contactInfo}>
+                    <h2 style={styles.contactTitle}>Chairperson Contact</h2>
+                    <div style={styles.contactDetails}>
+                        <p>
+                            📧 Email:{" "}
+                            <a
+                                href="mailto:predentalchair@example.com"
+                                style={{ color: "#1b5e20", fontWeight: "bold" }}
+                            >
+                                predentalchair@example.com
+                            </a>
+                        </p>
+                        <p>
+                            📞 Phone:{" "}
+                            <a
+                                href="tel:+123456789"
+                                style={{ color: "#1b5e20", fontWeight: "bold" }}
+                            >
+                                +123 456 789
+                            </a>
+                        </p>
+                        <p>📍 Office Hours: Mon-Fri, 9 AM - 5 PM</p>
+                        <p>📌 Location: 123 Dental Clubhouse, Suite 200</p>
+                    </div>
+                </div>
             </div>
 
-            <div style={sidebarStyle}>
-                <button
-                    style={sidebarButtonStyle}
-                    onClick={() => handleTrackNavigate('premed')}
-                >
-                    View Premed
-                </button>
-                <button
-                    style={sidebarButtonStyle}
-                    onClick={() => handleTrackNavigate('predent')}
-                >
-                    View Predent
-                </button>
-                <button
-                    style={sidebarButtonStyle}
-                    onClick={() => handleTrackNavigate('prepa')}
-                >
-                    View PrePA
-                </button>
-            </div>
+            {/* General Info Section */}
+            <section style={styles.generalInfoSection}>
+                <h1 style={styles.generalInfoTitle}>Pre-Dental Resources</h1>
+                <p style={styles.generalInfoText}>
+                    Welcome to the Pre-Dental Information Page! Our club is here to help
+                    aspiring dental professionals with the tools, support, and community
+                    they need to excel. Whether you're just starting or preparing your
+                    dental school applications, we've got you covered!
+                </p>
+                <p style={styles.generalInfoText}>
+                    Our key resources include:
+                </p>
+                <ul style={styles.list}>
+                    <li>✅ Comprehensive dental school prerequisites guide.</li>
+                    <li>✅ Tips for crafting a standout personal statement.</li>
+                    <li>✅ Exclusive shadowing and clinical experience opportunities.</li>
+                    <li>✅ Access to a network of dental students and professionals.</li>
+                </ul>
+                <p style={styles.generalInfoText}>
+                    Explore our other pages for Pre-Medical and Pre-PA resources to
+                    enhance your healthcare journey. Join us in making a difference!
+                </p>
+            </section>
+
+            {/* Footer */}
+            <footer style={styles.footer}>
+                &copy; {new Date().getFullYear()} Pre-Dental Club. All rights reserved. 🦷
+            </footer>
         </div>
     );
 };
