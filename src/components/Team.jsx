@@ -1,6 +1,11 @@
 import React from "react";
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 
 export const Team = (props) => {
+  function myfunction() {
+    console.log("hero")
+  }
   return (
     <div id="team" className="text-center">
       <div className="container">
@@ -13,17 +18,24 @@ export const Team = (props) => {
         <div id="row">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-3 col-sm-6 team">
-                  <div className="thumbnail">
-                    {" "}
-                    <img src={d.img} alt="..." className="team-img" />
-                    <div className="caption">
-                      <h4>{d.name}</h4>
+              <div key={`${d.name}-${i}`} className="col-md-3 col-sm-6 team">
+                <div className="thumbnail">
+                  {" "}
+                  <Popup trigger={<button><img src={d.img} alt="..." className="team-img" onClick={myfunction} /></button>} modal>
+                    <siv>
+                      <h1>{d.name}</h1>
+                      <p>{d.email}</p>
                       <p>{d.job}</p>
-                    </div>
+                      <p>About: {d.about}</p>
+                    </siv>
+                  </Popup>
+                  <div className="caption">
+                    <h4>{d.name}</h4>
+                    <p>{d.job}</p>
                   </div>
                 </div>
-              ))
+              </div>
+            ))
             : "loading"}
         </div>
       </div>

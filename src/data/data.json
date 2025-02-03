@@ -101,16 +101,38 @@
     }
   ],
   "Presidents": [
-  {
-    "img": "img/eboard/president1.jpg",
-    "name": "Alex Johnson",
-    "job": "President"
-  },
-  {
-    "img": "img/eboard/president2.jpg",
-    "name": "Jamie Smith",
-    "job": "Vice President"
-  }
+    {
+      "img": "img/eboard/president1.jpg",
+      "name": "Alex Johnson",
+      "job": "President"
+    },
+    {
+      "img": "img/eboard/president2.jpg",
+      "name": "Jamie Smith",
+      "job": "Vice President"
+    }
+  ],
+  "Prepa": [
+    {
+      "img": "img/eboard/faithabbott.jpeg",
+      "name": "Faith Abbott",
+      "job": "Pre-PA Chair",
+      "email": "yolo"
+    }
+  ],
+  "Predent": [
+    {
+      "img": "img/eboard/inayah.jpeg",
+      "name": "Inayah Alam",
+      "job": "Pre-Dental Chair"
+    }
+  ],
+  "Premed": [
+    {
+      "img": "img/eboard/kaushal.jpeg",
+      "name": "Kaushal Kasina",
+      "job": "Pre-Med Chair"
+    }
   ],
   "Team": [
     {
@@ -166,8 +188,8 @@
   ],
   "Contact": {
     "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "phone": "   @medconnect.umass",
+    "email": "   medconnectrso@umass.edu",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"

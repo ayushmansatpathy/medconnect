@@ -537,9 +537,12 @@ header .intro-text {
 
 /* Contact Section */
 #contact {
-  padding: 100px 0 60px;
-  background: linear-gradient(to right, #b9d4ad 0%, #7eb265 100%);
-  color: rgba(255, 255, 255, 0.75);
+  padding-top: 200px;
+  padding-left: 200px;
+  height: 100vh;
+  background: url(../img/mission.jpg) no-repeat center center;
+  background-size: cover;
+  color: black;
 }
 
 #contact .section-title {
@@ -547,11 +550,11 @@ header .intro-text {
 }
 
 #contact .section-title p {
-  font-size: 16px;
+  font-size: 26px;
 }
 
 #contact h2 {
-  color: #fff;
+  color: black;
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
@@ -560,18 +563,27 @@ header .intro-text {
 #contact .section-title h2::after {
   position: absolute;
   content: "";
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(22, 1, 1, 0.3);
   height: 4px;
-  width: 60px;
+  width: 100px;
   bottom: 0;
   left: 30px;
 }
 
+.contact-info p {
+  text-align: left;
+  font-size: 23px;
+  text-indent: -1em;
+  display: inline;
+  word-wrap: break-word;
+}
+
 #contact h3 {
-  color: #fff;
+  color: black;
   margin-top: 80px;
   margin-bottom: 25px;
   padding-bottom: 20px;
+  text-align: left;
   font-weight: 400;
 }
 
@@ -587,16 +599,16 @@ header .intro-text {
 #contact .btn-custom {
   margin: 30px 0;
   background: transparent;
-  border: 2px solid #fff;
+  border: 2px solid black;
 }
 
 #contact .btn-custom:hover {
   color: #1f386e;
-  background: #fff;
+  background: black;
 }
 
 label {
-  font-size: 12px;
+  font-size: 28px;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   float: left;
@@ -645,16 +657,19 @@ label {
 
 #contact .contact-item {
   margin: 20px 0;
+  text-align: left;
 }
 
 #contact .contact-item span {
-  color: rgba(255, 255, 255, 1);
+  color: black;
   margin-bottom: 10px;
   display: block;
+  text-align: left;
 }
 
 #contact .contact-item i.fa {
-  margin-right: 10px;
+  margin-left: 10px;
+  text-align: left;
 }
 
 #contact .social {
@@ -674,8 +689,8 @@ label {
   width: 48px;
   height: 48px;
   padding: 12px 0;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid black;
+  color: black;
   border-radius: 50%;
   transition: all 0.3s;
 }

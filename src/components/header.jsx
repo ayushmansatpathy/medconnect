@@ -7,7 +7,7 @@ export const Header = (props) => {
         style={{
           backgroundImage: "url('img/fp.jpg')",
           backgroundSize: "cover",
-          backgroundPosition: "center",
+          backgroundPosition: "center 60px",
           height: "100vh",
         }}>
         <div className="overlay">

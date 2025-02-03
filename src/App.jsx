@@ -50,9 +50,9 @@ const App = () => {
               </>
             }
           />
-          <Route path="/premed" element={<Premed />} />
-          <Route path="/predent" element={<Predent />} />
-          <Route path="/prepa" element={<Prepa />} />
+          <Route path="/premed" element={<Premed data={landingPageData.Premed} />} />
+          <Route path="/predent" element={<Predent data={landingPageData.Predent} />} />
+          <Route path="/prepa" element={<Prepa data={landingPageData.Prepa} />} />
         </Routes>
 
       </div>

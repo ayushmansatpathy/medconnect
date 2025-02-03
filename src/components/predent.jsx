@@ -1,15 +1,14 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-export const Predent = () => {
+export const Predent = (props) => {
     const styles = {
         container: {
-            fontFamily: "'Arial Black', sans-serif",
             backgroundColor: "#d7ffd9",
             color: "#1b5e20",
             minHeight: "100vh",
             padding: "30px",
-            paddingTop: "100px",
+            paddingTop: "100px"
         },
         topSection: {
             display: "flex",
@@ -39,28 +38,34 @@ export const Predent = () => {
             fontSize: "1.2rem",
             lineHeight: "1.8",
         },
-        generalInfoSection: {
-            marginTop: "40px",
-            padding: "30px",
-            backgroundColor: "#a5d6a7",
+        sectionWrapper: {
+            display: "flex",
+            flexDirection: "row",
+            flexWrap: "wrap",
+            gap: "20px",
+            marginTop: "30px",
+        },
+        section: {
+            flex: "1 1 calc(50% - 20px)", // Adjusts to fit two sections in a row
+            backgroundColor: "white",
             borderRadius: "12px",
             boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+            padding: "20px",
+            textAlign: "center",
         },
-        generalInfoTitle: {
-            fontSize: "2.5rem",
-            marginBottom: "15px",
-            borderBottom: "4px solid #4caf50",
-            paddingBottom: "8px",
-            color: "#1b5e20",
+        calendarSection: {
+            flex: "1 1 100%", // Makes the calendar span the full width
+            backgroundColor: "#c8e6c9",
+            borderRadius: "12px",
+            boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+            padding: "20px",
         },
-        generalInfoText: {
-            fontSize: "1.3rem",
-            lineHeight: "1.8",
+        sectionTitle: {
+            fontSize: "2rem",
         },
-        list: {
-            fontSize: "1.2rem",
-            marginLeft: "20px",
-            marginTop: "10px",
+        sectionText: {
+            fontSize: "1.5rem",
+            lineHeight: "1.5",
         },
         footer: {
             marginTop: "30px",
@@ -76,7 +81,7 @@ export const Predent = () => {
             {/* Top Section */}
             <div style={styles.topSection}>
                 <img
-                    src="https://via.placeholder.com/180"
+                    src={props.img}
                     alt="Chairperson"
                     style={styles.image}
                 />
@@ -107,34 +112,35 @@ export const Predent = () => {
                 </div>
             </div>
 
-            {/* General Info Section */}
-            <section style={styles.generalInfoSection}>
-                <h1 style={styles.generalInfoTitle}>Pre-Dental Resources</h1>
-                <p style={styles.generalInfoText}>
-                    Welcome to the Pre-Dental Information Page! Our club is here to help
-                    aspiring dental professionals with the tools, support, and community
-                    they need to excel. Whether you're just starting or preparing your
-                    dental school applications, we've got you covered!
-                </p>
-                <p style={styles.generalInfoText}>
-                    Our key resources include:
-                </p>
-                <ul style={styles.list}>
-                    <li>✅ Comprehensive dental school prerequisites guide.</li>
-                    <li>✅ Tips for crafting a standout personal statement.</li>
-                    <li>✅ Exclusive shadowing and clinical experience opportunities.</li>
-                    <li>✅ Access to a network of dental students and professionals.</li>
-                </ul>
-                <p style={styles.generalInfoText}>
-                    Explore our other pages for Pre-Medical and Pre-PA resources to
-                    enhance your healthcare journey. Join us in making a difference!
+            {/* Calendar Section */}
+            <section style={styles.calendarSection}>
+                <h2 style={styles.sectionTitle}>📅 Calendar</h2>
+                <p style={styles.sectionText}>
+                    Upcoming events and important dates will be displayed here soon! Stay
+                    tuned for updates about workshops, guest speakers, and more.
                 </p>
             </section>
 
-            {/* Footer */}
-            <footer style={styles.footer}>
-                &copy; {new Date().getFullYear()} Pre-Dental Club. All rights reserved. 🦷
-            </footer>
+            {/* Opportunities and Certifications */}
+            <div style={styles.sectionWrapper}>
+                <section style={styles.section}>
+                    <h2 style={styles.sectionTitle}>🎯 Opportunities</h2>
+                    <p style={styles.sectionText}>
+                        Discover shadowing programs, dental internships, and volunteer
+                        opportunities to enhance your pre-dental journey. Connect with local
+                        dental professionals and build your experience!
+                    </p>
+                </section>
+
+                <section style={styles.section}>
+                    <h2 style={styles.sectionTitle}>🏆 Certifications</h2>
+                    <p style={styles.sectionText}>
+                        Learn about certifications that will boost your resume, such as CPR
+                        and First Aid. We also offer guidance on earning dental assistant
+                        certifications to prepare you for dental school applications.
+                    </p>
+                </section>
+            </div>
         </div>
     );
 };
