@@ -2,6 +2,14 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 export const Predent = (props) => {
+    const navigate = useNavigate();
+    const handleGoBack = () => {
+        navigate('/');
+    };
+
+    const handleTrackNavigate = (track) => {
+        navigate(`/${track}`);
+    };
     const styles = {
         container: {
             backgroundColor: "#d7ffd9",
@@ -80,39 +88,40 @@ export const Predent = (props) => {
         <div style={styles.container}>
             {/* Top Section */}
             <div style={styles.topSection}>
-                <img
-                    src={props.img}
-                    alt="Chairperson"
-                    style={styles.image}
-                />
+
                 <div style={styles.contactInfo}>
                     <h2 style={styles.contactTitle}>Chairperson Contact</h2>
                     <div style={styles.contactDetails}>
-                        <p>
-                            📧 Email:{" "}
-                            <a
-                                href="mailto:predentalchair@example.com"
-                                style={{ color: "#1b5e20", fontWeight: "bold" }}
-                            >
-                                predentalchair@example.com
-                            </a>
+                        <p>Email:
+                            {props.data?.email}
                         </p>
-                        <p>
-                            📞 Phone:{" "}
-                            <a
-                                href="tel:+123456789"
-                                style={{ color: "#1b5e20", fontWeight: "bold" }}
-                            >
-                                +123 456 789
-                            </a>
-                        </p>
-                        <p>📍 Office Hours: Mon-Fri, 9 AM - 5 PM</p>
-                        <p>📌 Location: 123 Dental Clubhouse, Suite 200</p>
+
+                        <p>Position: {props.data?.job}</p>
                     </div>
                 </div>
             </div>
 
             {/* Calendar Section */}
+            <div>
+                <button
+
+                    onClick={() => handleTrackNavigate('premed')}
+                >
+                    View Premed
+                </button>
+                <button
+
+                    onClick={() => handleTrackNavigate('predent')}
+                >
+                    View Predent
+                </button>
+                <button
+
+                    onClick={() => handleTrackNavigate('prepa')}
+                >
+                    View PrePA
+                </button>
+            </div>
             <section style={styles.calendarSection}>
                 <h2 style={styles.sectionTitle}>📅 Calendar</h2>
                 <p style={styles.sectionText}>
@@ -144,3 +153,4 @@ export const Predent = (props) => {
         </div>
     );
 };
+

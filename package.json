@@ -12,6 +12,7 @@
     "gapi-script": "^1.2.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-error-boundary": "^5.0.0",
     "react-router-dom": "^6.26.2",
     "react-scripts": "^5.0.1",
     "react-social-icons": "^6.22.0",

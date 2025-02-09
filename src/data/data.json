@@ -102,88 +102,89 @@
   ],
   "Presidents": [
     {
-      "img": "img/eboard/president1.jpg",
-      "name": "Alex Johnson",
-      "job": "President"
+      "img": "img/presidents/anushka.jpeg",
+      "name": "Anushka Jain",
+      "job": "Co-President",
+      "email": "anushkajain@umass.edu",
+      "caption": ""
     },
     {
-      "img": "img/eboard/president2.jpg",
-      "name": "Jamie Smith",
-      "job": "Vice President"
+      "img": "img/presidents/aaria.jpg",
+      "name": "Aaria Prakash",
+      "job": "Co-President",
+      "email": "aprakash@umass.edu",
+      "caption": ""
     }
   ],
-  "Prepa": [
-    {
-      "img": "img/eboard/faithabbott.jpeg",
-      "name": "Faith Abbott",
-      "job": "Pre-PA Chair",
-      "email": "yolo"
-    }
-  ],
-  "Predent": [
-    {
-      "img": "img/eboard/inayah.jpeg",
-      "name": "Inayah Alam",
-      "job": "Pre-Dental Chair"
-    }
-  ],
-  "Premed": [
-    {
-      "img": "img/eboard/kaushal.jpeg",
-      "name": "Kaushal Kasina",
-      "job": "Pre-Med Chair"
-    }
-  ],
+  "Prepa": {
+    "img": "img/eboard/faithabbott.jpeg",
+    "name": "Faith Abbott",
+    "job": "Pre-PA Chair",
+    "email": "fabbott@umass.edu",
+    "caption": ""
+  },
+  "Predent": {
+    "img": "img/eboard/inayah.jpeg",
+    "name": "Inayah Alam",
+    "job": "Pre-Dental Chair",
+    "email": "",
+    "caption": ""
+  },
+  "Premed": {
+    "img": "img/eboard/kaushal.jpeg",
+    "name": "Kaushal Kasina",
+    "job": "Pre-Med Chair",
+    "email": "kkasina@umass.edu",
+    "caption": ""
+  },
   "Team": [
     {
       "img": "img/eboard/chris.jpg",
       "name": "Chris Santry",
-      "job": "Secretary"
+      "job": "Secretary",
+      "caption": ""
     },
     {
       "img": "img/eboard/ayushman.jpeg",
       "name": "Ayushman Satpathy",
-      "job": " IT Director"
+      "job": " IT Director",
+      "caption": ""
     },
     {
       "img": "img/eboard/rhea.jpg",
       "name": "Rhea Mallya",
-      "job": "IT Director"
-    },
-    {
-      "img": "img/eboard/faithabbott.jpeg",
-      "name": "Faith Abbott",
-      "job": "Pre-PA Chair"
-    },
-    {
-      "img": "img/eboard/inayah.jpeg",
-      "name": "Inayah Alam",
-      "job": "Pre-Dental Chair"
+      "job": "IT Director",
+      "caption": ""
     },
     {
       "img": "img/eboard/kaushal.jpeg",
       "name": "Kaushal Kasina",
-      "job": "Pre-Med Chair"
+      "job": "Pre-Med Chair",
+      "caption": ""
     },
     {
       "img": "img/eboard/surya.jpeg",
       "name": "Surya Arunkumar",
-      "job": "Senior Events Coordinator"
+      "job": "Senior Events Coordinator",
+      "caption": ""
     },
     {
       "img": "img/eboard/meenakshi.jpg",
       "name": "Meenakshi Rajesh",
-      "job": "Junior Events Coordinator"
+      "job": "Junior Events Coordinator",
+      "caption": ""
     },
     {
       "img": "img/eboard/shreya.jpeg",
       "name": "Shreya Navuduri",
-      "job": "Fundraising Coordinator"
+      "job": "Fundraising Coordinator",
+      "caption": ""
     },
     {
       "img": "img/eboard/katherine.jpeg",
       "name": "Katherine Poirier",
-      "job": "Fundraising Coordinator"
+      "job": "Fundraising Coordinator",
+      "caption": ""
     }
   ],
   "Contact": {
