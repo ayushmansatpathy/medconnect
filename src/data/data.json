@@ -121,70 +121,457 @@
     "name": "Faith Abbott",
     "job": "Pre-PA Chair",
     "email": "fabbott@umass.edu",
-    "caption": ""
+    "caption": "",
+    "PrePACert": {
+      "nursing": [
+        {
+          "name": "Excel Training Institute Nurse Aide/Home Health Aide Training",
+          "link": "https://exceltraininginstitute.com/nurse-aide-training/"
+        },
+        {
+          "name": "Quinsigamond Community College",
+          "link": "https://www.qcc.edu/healthcare/nursing-assistant-direct-entry-certificate"
+        },
+        {
+          "name": "Peak Medical Academy",
+          "link": "https://peakmedicalacademy.com/nursing-assistant-technician-home-health-aide"
+        },
+        {
+          "name": "MassBay Community College",
+          "link": "https://www.massbay.edu/cce/nursing-assistant"
+        },
+        {
+          "name": "Springfield Technical Community College",
+          "link": "https://www.stcc.edu/wdc/descriptions/wcna-020-certified-nurse-assistant-cna-plus/"
+        },
+        {
+          "name": "Life Care Center of Plymouth",
+          "link": "https://www.lifestreaminc.com/training-programs/"
+        },
+        {
+          "name": "Metrowest Healthcare Academy",
+          "link": "https://www.mwhacademy.com/#nursing-assistant-home-health-aide"
+        },
+        {
+          "name": "Notre Dame Education Center",
+          "link": "https://www.ndeclawrence.net/nursing-assistant-program"
+        },
+        {
+          "name": "Coastal Career Academy - Nurse Assistant Training",
+          "link": "https://www.coastalcareeracademy.com/private-occupational-school-courses/nurse-assistant-training"
+        },
+        {
+          "name": "Coastal Career Academy - Patient Care Technician",
+          "link": "https://www.coastalcareeracademy.com/private-occupational-school-courses/patient-care-technician"
+        },
+        {
+          "name": "Bristol Community College",
+          "link": "https://bristolcc.coursestorm.com/course/blended-nursing-assistant-training1?search=nurse+assistant"
+        }
+      ],
+      "emt": [
+        {
+          "name": "Mount Wachusett EMT Training",
+          "link": "https://mwcc.edu/corporate-career-and-continuing-education/workforce-access-and-education/ems-and-emt-training/"
+        },
+        {
+          "name": "MassBay Community College",
+          "link": "https://www.massbay.edu/emt"
+        },
+        {
+          "name": "Institute for Emergency Medical Education",
+          "link": "https://www.ifeme.com/"
+        },
+        {
+          "name": "A.D. Quality EMS Training",
+          "link": "https://adqualityemstraining.com/"
+        },
+        {
+          "name": "Bay State EMS Educators",
+          "link": "https://www.baystateemseducators.com/"
+        },
+        {
+          "name": "Massachusetts Emergency Care Training Academy",
+          "link": "http://www.mecta.com/"
+        },
+        {
+          "name": "National EMS Institute",
+          "link": "https://www.rapidsafety.com/"
+        },
+        {
+          "name": "New Bedford EMS Training Academy",
+          "link": "https://www.newbedford-ma.gov/"
+        },
+        {
+          "name": "New England Institute for Prehospital Medicine",
+          "link": "https://www.neipm.org/"
+        }
+      ],
+      "med": [
+        {
+          "name": "Greenfield Community College",
+          "link": "https://www.gcc.mass.edu/academics/programs/medical-assistant/"
+        },
+        {
+          "name": "Coastal Career Academy - Medical Assistant Program",
+          "link": "https://www.coastalcareeracademy.com/private-occupational-school-courses/medical-assistant-program"
+        }
+      ]
+    }
   },
   "Predent": {
     "img": "img/eboard/inayah.jpeg",
     "name": "Inayah Alam",
     "job": "Pre-Dental Chair",
     "email": "",
-    "caption": ""
+    "caption": "",
+    "PreDentCert": {
+      "ster": {
+        "requirements": [
+          {
+            "name": "Minimum Age",
+            "details": 18
+          },
+          {
+            "name": "Responsibilities",
+            "details": "Instrument handling, Sterilization, Tray prepping"
+          },
+          {
+            "name": "High School Diploma or GED",
+            "required": true
+          },
+          {
+            "name": "On-the-Job Training",
+            "required": true,
+            "details": "Provided by the employer or through a dental practice"
+          },
+          {
+            "name": "CPR Certification",
+            "required": true
+          },
+          {
+            "name": "Optional Certification",
+            "required": false,
+            "details": "Certification through DANB or IAHCSMM can enhance job prospects"
+          },
+          {
+            "name": "Continuing Education",
+            "required": false,
+            "details": "Not generally required but beneficial for career advancement"
+          }
+        ]
+      },
+      "xray": {
+        "requirements": [
+          {
+            "name": "Minimum Age",
+            "details": 18
+          },
+          {
+            "name": "Responsibilities",
+            "details": "Full mouth X-rays"
+          },
+          {
+            "name": "High School Diploma or GED",
+            "required": true
+          },
+          {
+            "name": "Radiography Certification",
+            "required": true,
+            "details": "Pass the DANB Radiation Health and Safety (RHS) exam through the following: ",
+            "certification_links": [
+              {
+                "name": "Yankee Dental Radiology Certification (Jan 30, 2025)",
+                "link": "https://www.yankeedental.com/event/radiology-certification-2025-saturday-clinic-1-730-1130-am/"
+              },
+              {
+                "name": "Boston University Dental CE Courses",
+                "link": "https://www.bu.edu/dental/ce/courses/"
+              },
+              {
+                "name": "Mount Wachusett Community College Dental Radiology Certification",
+                "link": "https://mwcc.edu/corporate-career-and-continuing-education/professional-career-training/dental-radiology-certification/"
+              },
+              {
+                "name": "Springfield Technical Community College Dental Radiology Certificate Program",
+                "link": "https://www.stcc.edu/wdc/descriptions/wden-001-dental-radiology-certificate-program/"
+              }
+            ]
+          },
+          {
+            "name": "State Registration",
+            "required": true,
+            "details": "Required with the Massachusetts Board of Registration in Dentistry"
+          },
+          {
+            "name": "CPR Certification",
+            "required": true,
+            "details": "Any online or in-person course, followed by passed test results"
+          },
+          {
+            "name": "Continuing Education",
+            "required": true,
+            "details": "12 hours annually for registered dental assistants, which may include radiography topics"
+          }
+        ]
+      },
+      "massdent": {
+        "requirements": [
+          {
+            "name": "Minimum Age",
+            "details": "You must be at least 18 years old."
+          },
+          {
+            "name": "On-the-Job Training",
+            "details": "Provided by a licensed dentist. Essentially everything on this list will be paid for/handled by a DMD/DDS in exchange for you working at their practice for a set amount of time."
+          },
+          {
+            "name": "Dental Assistant Program",
+            "details": "Local Community Colleges typically offer these programs. Many jobs will not help you get your license, but are willing to train you if you are already certified, even if you do not have experience. Some offices sponsor the cost of the program. This route is ideal for someone planning to spend a gap year assisting."
+          },
+          {
+            "name": "High School Diploma or GED",
+            "details": "Required to enter the field."
+          },
+          {
+            "name": "CPR Certification",
+            "details": "Must be obtained and maintained.",
+            "resources": [
+              {
+                "name": "Red Cross CPR Class",
+                "url": "https://www.redcross.org/take-a-class?scode=PSG00000E017&cid=generator&med=cpc&source=google&gad_source=1&gclid=Cj0KCQiA4fi7BhC5ARIsAEV1YibOexnVnUaGzgYURs_zcPFuz4rWTbs_ie6rEocyNlI8Vgv_bBffeUgaAnxOEA"
+              }
+            ]
+          },
+          {
+            "name": "State Registration",
+            "details": "Must register with the Massachusetts Board of Registration in Dentistry.",
+            "resources": [
+              {
+                "name": "Massachusetts Board of Registration in Dentistry",
+                "url": "https://www.mass.gov/how-to/apply-for-a-dental-assistant-license"
+              }
+            ]
+          },
+          {
+            "name": "Radiography Certification",
+            "details": "Required to take X-rays, obtained by passing the DANB Radiation Health and Safety (RHS) exam. These are not introductory courses. You must have some experience with x-rays to excel, however it is not hard to learn.",
+            "resources": [
+              {
+                "name": "Yankee Dental Radiology Certification Clinic (Jan 30, 2025)",
+                "url": "https://www.yankeedental.com/event/radiology-certification-2025-saturday-clinic-1-730-1130-am/"
+              },
+              {
+                "name": "Boston University Dental Radiology Courses",
+                "url": "https://www.bu.edu/dental/ce/courses/"
+              }
+            ]
+          },
+          {
+            "name": "Expanded Functions Certification",
+            "details": "Optional. Requires completion of a board-approved course and passing the DANB exam for specific expanded functions."
+          },
+          {
+            "name": "Continuing Education",
+            "details": "12 hours of continuing education annually to maintain registration. These are called CE credits."
+          },
+          {
+            "name": "HIPAA Certification",
+            "details": "Varies by practice, typically you will spend at least a day doing online training, and taking a quiz you must pass."
+          },
+          {
+            "name": "Jurisprudence Exam",
+            "details": "This is a multiple choice exam you must take and pass to get approval for your certification.",
+            "resources": [
+              {
+                "name": "Dental Ethics and Jurisprudence Exam",
+                "url": "https://www.mass.gov/how-to/request-a-copy-of-the-dental-ethics-and-jurisprudence-exam"
+              }
+            ]
+          }
+        ]
+      },
+      "office": {
+        "requirements": [
+          {
+            "name": "Minimum Age",
+            "detail": "You do not have to be at least 18 years old."
+          },
+          {
+            "name": "High School Diploma or GED",
+            "detail": "Required to enter the field."
+          },
+          {
+            "name": "Training",
+            "detail": "You will be trained to work in scheduling, billing, insurance, phone calls, patient file organization, X-Ray logging (and sometimes mounting), record releasing, referrals, and general management."
+          }
+        ]
+      }
+    }
   },
   "Premed": {
     "img": "img/eboard/kaushal.jpeg",
     "name": "Kaushal Kasina",
     "job": "Pre-Med Chair",
     "email": "kkasina@umass.edu",
-    "caption": ""
+    "caption": "",
+    "PreMedCert": {
+      "nursing": [
+        {
+          "name": "Excel Training Institute Nurse Aide/Home Health Aide Training",
+          "link": "https://exceltraininginstitute.com/nurse-aide-training/"
+        },
+        {
+          "name": "Quinsigamond Community College",
+          "link": "https://www.qcc.edu/healthcare/nursing-assistant-direct-entry-certificate"
+        },
+        {
+          "name": "Peak Medical Academy",
+          "link": "https://peakmedicalacademy.com/nursing-assistant-technician-home-health-aide"
+        },
+        {
+          "name": "MassBay Community College",
+          "link": "https://www.massbay.edu/cce/nursing-assistant"
+        },
+        {
+          "name": "Springfield Technical Community College",
+          "link": "https://www.stcc.edu/wdc/descriptions/wcna-020-certified-nurse-assistant-cna-plus/"
+        },
+        {
+          "name": "Life Care Center of Plymouth",
+          "link": "https://www.lifestreaminc.com/training-programs/"
+        },
+        {
+          "name": "Metrowest Healthcare Academy",
+          "link": "https://www.mwhacademy.com/#nursing-assistant-home-health-aide"
+        },
+        {
+          "name": "Notre Dame Education Center",
+          "link": "https://www.ndeclawrence.net/nursing-assistant-program"
+        },
+        {
+          "name": "Coastal Career Academy - Nurse Assistant Training",
+          "link": "https://www.coastalcareeracademy.com/private-occupational-school-courses/nurse-assistant-training"
+        },
+        {
+          "name": "Coastal Career Academy - Patient Care Technician",
+          "link": "https://www.coastalcareeracademy.com/private-occupational-school-courses/patient-care-technician"
+        },
+        {
+          "name": "Bristol Community College",
+          "link": "https://bristolcc.coursestorm.com/course/blended-nursing-assistant-training1?search=nurse+assistant"
+        }
+      ],
+      "emt": [
+        {
+          "name": "Mount Wachusett EMT Training",
+          "link": "https://mwcc.edu/corporate-career-and-continuing-education/workforce-access-and-education/ems-and-emt-training/"
+        },
+        {
+          "name": "MassBay Community College",
+          "link": "https://www.massbay.edu/emt"
+        },
+        {
+          "name": "Institute for Emergency Medical Education",
+          "link": "https://www.ifeme.com/"
+        },
+        {
+          "name": "A.D. Quality EMS Training",
+          "link": "https://adqualityemstraining.com/"
+        },
+        {
+          "name": "Bay State EMS Educators",
+          "link": "https://www.baystateemseducators.com/"
+        },
+        {
+          "name": "Massachusetts Emergency Care Training Academy",
+          "link": "http://www.mecta.com/"
+        },
+        {
+          "name": "National EMS Institute",
+          "link": "https://www.rapidsafety.com/"
+        },
+        {
+          "name": "New Bedford EMS Training Academy",
+          "link": "https://www.newbedford-ma.gov/"
+        },
+        {
+          "name": "New England Institute for Prehospital Medicine",
+          "link": "https://www.neipm.org/"
+        }
+      ],
+      "med": [
+        {
+          "name": "Greenfield Community College",
+          "link": "https://www.gcc.mass.edu/academics/programs/medical-assistant/"
+        },
+        {
+          "name": "Coastal Career Academy - Medical Assistant Program",
+          "link": "https://www.coastalcareeracademy.com/private-occupational-school-courses/medical-assistant-program"
+        }
+      ]
+    }
   },
   "Team": [
     {
       "img": "img/eboard/chris.jpg",
       "name": "Chris Santry",
       "job": "Secretary",
-      "caption": ""
+      "caption": "Why I Joined: Clinical experience often plays a pivotal role in someone's certainty of a career in healthcare. My Experience: Shadowing opportunities in both nephrology and the ICU assured me that pursuing a career in medicine is worth it. I am currently in the BaccMD Pathway Program, which provides students with clinical immersion at UMass Chan Medical School."
     },
     {
       "img": "img/eboard/ayushman.jpeg",
       "name": "Ayushman Satpathy",
       "job": " IT Director",
-      "caption": ""
+      "caption": "MedConnect gave me the opportunity to contribute to a community and have my work be seen by other students. I'm excited to use my skills to help bring awareness to MedConnect and the work that they do for students in the field of healthcare here at UMass."
     },
     {
       "img": "img/eboard/rhea.jpg",
       "name": "Rhea Mallya",
       "job": "IT Director",
-      "caption": ""
+      "caption": "I joined MedConnect to leverage my experience in data science and IT by helping to develop the website and overseeing the IT sector of the club. My involvement in a biostatistics research, where I used AI/machine learning models to analyze the top ten predictors of diabetes, sparked my interest in integrating technology with healthcare and motivated me to explore this field further."
     },
     {
       "img": "img/eboard/kaushal.jpeg",
       "name": "Kaushal Kasina",
       "job": "Pre-Med Chair",
-      "caption": ""
+      "caption": "I joined to help students seeking clinical and research experience in order to be well-prepared before entering their respective pre-health fields. I currently work as a PCA at UMass Memorial and work at a research lab at UMass Chan Medical school in the Albert Sherman Center. "
     },
     {
       "img": "img/eboard/surya.jpeg",
       "name": "Surya Arunkumar",
       "job": "Senior Events Coordinator",
-      "caption": ""
+      "caption": "I joined MedConnect because I want to give advice to others that are looking to start working clinically and get clinical volunteer hours myself. I have been a licensed EMT-B since January 2024 and I work on campus and at Patriot Ambulance. I am also involved in research and BioSci on campus."
     },
     {
       "img": "img/eboard/meenakshi.jpg",
       "name": "Meenakshi Rajesh",
       "job": "Junior Events Coordinator",
-      "caption": ""
+      "caption": "I joined MedConnect because it uniquely offers essential clinical volunteering and networking opportunities that are crucial for a strong medical school application, which are typically not available through other clubs at UMass. I've spent the past two years volunteering seasonally at my local hospital. Additionally, I completed an EMT course in Boston this summer and am currently preparing for the NREMT."
     },
     {
       "img": "img/eboard/shreya.jpeg",
       "name": "Shreya Navuduri",
       "job": "Fundraising Coordinator",
-      "caption": ""
+      "caption": " I joined MedConnect to get more involved in the medical community, and particularly use my knowledge to help others that want to succeed. Previously I worked as the blood drive coordinator and worked with Mass General Hospital to host a successful blood drive. I also worked for the American Cancer Society to host a Relay for Life event for cancer survivors."
     },
     {
       "img": "img/eboard/katherine.jpeg",
       "name": "Katherine Poirier",
       "job": "Fundraising Coordinator",
+      "caption": "I joined MedConnect because I thought it would be the perfect way to get more involved in the UMass community as well as learn more about different parts of the medical field, as I just transferred to UMass in the spring. In the fall of my sophomore year, I decided that I wanted to pursue a career in the medical field, so up until recently I have not been too involved in the field, besides clubs from UMass and my old school. However, this summer I did have an internship with an optometrist where I could gain clinical, hands-on experience while also conducting research and writing up a research presentation on a patient with an extraordinary case. I have also been shadowing with a general dentist weekly throughout the summer and plan to continue to shadow different parts of the field. "
+    },
+    {
+      "img": "img/eboard/diya.png",
+      "name": "Diya Asawa",
+      "job": "PR Manager",
       "caption": ""
+    },
+    {
+      "img": "img/eboard/saranya.png",
+      "name": "Saranya Sribalahara",
+      "job": "Treasurer",
+      "caption": "I joined med connect to help students like me learn more about the opportunities available and set themselves up for success in the future. I am an EMT working in Lawrence doing 911s and IFTs, I have done volunteering work at my local hospital in the Emergency Department along with the Cancer center"
     }
   ],
   "Contact": {

@@ -528,7 +528,7 @@ header .intro-text {
 
 #presidents .team-img {
   margin-left: 0;
-  height: 200px;
+  height: 300px;
 }
 
 #team .thumbnail {
@@ -540,6 +540,10 @@ header .intro-text {
 #team .thumbnail .caption {
   padding: 10px 0 0;
   color: #888;
+}
+
+.blurb {
+  width: 52vw;
 }
 
 /* Contact Section */
@@ -611,6 +615,24 @@ header .intro-text {
   color: #1f386e;
   background: black;
 }
+
+#contact .campuspulse {
+  width: 40vw;
+  height: auto;
+  background-color: transparent;
+  border: 0;
+  border-radius: 30%;
+  transition: background-color 0.3s ease-in-out;
+  /* Smooth transition */
+}
+
+#contact .campuspulse:hover {
+  background-color: rgb(238, 235, 235);
+  /* Change to grey on hover */
+}
+
+
+
 
 label {
   font-size: 28px;
@@ -761,7 +783,6 @@ label {
   padding-left: 200px;
   -webkit-animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
   color: black;
-  font-family: Georgia, serif;
 }
 
 .popup-arrow {

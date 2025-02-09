@@ -23,10 +23,10 @@ export const Team = (props) => {
                   {" "}
                   <Popup trigger={<button><img src={d.img} alt="..." className="team-img" onClick={myfunction} /></button>} modal>
                     <div>
-                      <h1>{d.name}</h1>
+                      <h3>{d.name}</h3>
                       <p>{d.email}</p>
                       <p>{d.job}</p>
-                      <p>About: {d.about}</p>
+                      <p>About: {d.caption}</p>
                     </div>
                   </Popup>
                   <div className="caption">

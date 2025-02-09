@@ -3,9 +3,6 @@ import { useNavigate } from 'react-router-dom';
 
 export const Prepa = (props) => {
     const navigate = useNavigate();
-    const handleGoBack = () => {
-        navigate('/');
-    };
 
     const handleTrackNavigate = (track) => {
         navigate(`/${track}`);
@@ -59,7 +56,7 @@ export const Prepa = (props) => {
             borderRadius: "12px",
             boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
             padding: "20px",
-            textAlign: "center",
+            textAlign: "left",
         },
         calendarSection: {
             flex: "1 1 100%", // Makes the calendar span the full width
@@ -146,10 +143,35 @@ export const Prepa = (props) => {
 
                 <section style={styles.section}>
                     <h2 style={styles.sectionTitle}>🏆 Certifications</h2>
+                    <h3>Certified Nursing Assistant and Patient Care Technician Certifications</h3>
                     <p style={styles.sectionText}>
-                        Learn about certifications that will boost your resume, such as CPR
-                        and First Aid. We also offer guidance on earning dental assistant
-                        certifications to prepare you for dental school applications.
+                        {props.data
+                            ? props.data.PrePACert.nursing.map((d, i) => (
+                                <div key={`${d.name}-${i}`}>
+                                    <h4><a href={d.link}>{d.name}</a></h4>
+                                </div>
+                            ))
+                            : "loading"}
+                    </p>
+                    <h3>Emergency Medical Technician (EMT)</h3>
+                    <p style={styles.sectionText}>
+                        {props.data
+                            ? props.data.PrePACert.emt.map((d, i) => (
+                                <div key={`${d.name}-${i}`}>
+                                    <h4><a href={d.link}>{d.name}</a></h4>
+                                </div>
+                            ))
+                            : "loading"}
+                    </p>
+                    <h3>Medical Assistant Certification</h3>
+                    <p style={styles.sectionText}>
+                        {props.data
+                            ? props.data.PrePACert.med.map((d, i) => (
+                                <div key={`${d.name}-${i}`}>
+                                    <h4><a href={d.link}>{d.name}</a></h4>
+                                </div>
+                            ))
+                            : "loading"}
                     </p>
                 </section>
             </div>

@@ -16,6 +16,7 @@ import { Prepa } from "./components/prepa";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
+import Basic from "./components/calendar";
 
 
 export const scroll = new SmoothScroll('a[href*="#"]', {

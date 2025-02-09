@@ -3,9 +3,6 @@ import { useNavigate } from 'react-router-dom';
 
 export const Predent = (props) => {
     const navigate = useNavigate();
-    const handleGoBack = () => {
-        navigate('/');
-    };
 
     const handleTrackNavigate = (track) => {
         navigate(`/${track}`);
@@ -59,7 +56,7 @@ export const Predent = (props) => {
             borderRadius: "12px",
             boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
             padding: "20px",
-            textAlign: "center",
+            textAlign: "left",
         },
         calendarSection: {
             flex: "1 1 100%", // Makes the calendar span the full width
@@ -143,10 +140,54 @@ export const Predent = (props) => {
 
                 <section style={styles.section}>
                     <h2 style={styles.sectionTitle}>🏆 Certifications</h2>
+                    <h3>Sterilization Technician Requirements in Massachusetts</h3>
                     <p style={styles.sectionText}>
-                        Learn about certifications that will boost your resume, such as CPR
-                        and First Aid. We also offer guidance on earning dental assistant
-                        certifications to prepare you for dental school applications.
+                        {props.data
+                            ? props.data.PreDentCert.ster.requirements.map((d, i) => (
+                                <div key={`${d.name}-${i}`}>
+                                    <h4>{d.name}{d.details ? " - " + d.details : ""}</h4>
+                                </div>
+                            ))
+                            : "loading"}
+                    </p>
+                    <h3>X-Ray Technician Requirements in Massachusetts</h3>
+                    <p style={styles.sectionText}>
+                        {props.data
+                            ? props.data.PreDentCert.xray.requirements.map((d, i) => (
+                                <div key={`${d.name}-${i}`}>
+                                    <h4>{d.name}{d.details ? " - " + d.details : ""}</h4>
+                                    <p>{d.certification_links ? d.certification_links.map((l, i) => (
+                                        <h4><a href={l.link}>{l.name}</a></h4>
+                                    )) : ""}</p>
+                                </div>
+                            ))
+                            : "loading"}
+                    </p>
+                    <h3>Massachusetts Dental Assistant Requirements and Certifications</h3>
+                    <p style={styles.sectionText}>
+                        {props.data
+                            ? props.data.PreDentCert.massdent.requirements.map((d, i) => (
+                                <div key={`${d.name}-${i}`}>
+                                    <h4>{d.name}{d.details ? " - " + d.details : ""}</h4>
+                                    <p>{d.resources ? d.resources.map((l, i) => (
+                                        <h4><a href={l.url}>{l.name}</a></h4>
+                                    )) : ""}</p>
+                                </div>
+                            ))
+                            : "loading"}
+                    </p>
+                    <h3>Office Management Assistant</h3>
+                    <p style={styles.sectionText}>
+                        {props.data
+                            ? props.data.PreDentCert.office.requirements.map((d, i) => (
+                                <div key={`${d.name}-${i}`}>
+                                    <h4>{d.name}{d.detail ? " - " + d.detail : ""}</h4>
+                                    <p>{d.resources ? d.resources.map((l, i) => (
+                                        <h4><a href={l.url}>{l.name}</a></h4>
+                                    )) : ""}</p>
+                                </div>
+                            ))
+                            : "loading"}
                     </p>
                 </section>
             </div>
