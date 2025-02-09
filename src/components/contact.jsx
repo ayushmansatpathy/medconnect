@@ -45,7 +45,7 @@ export const Contact = (props) => {
             Guiding you to your future success.
           </p>
         </div>
-        <div className="col-md-3 contact-info">
+        <div className="col-md-12 contact-info">
           <div className="contact-item">
             <p>
               <SocialIcon url="www.instagram.com" bgColor="black" />{"  "}
@@ -55,8 +55,8 @@ export const Contact = (props) => {
           <div className="contact-item">
             <p>
               <SocialIcon url="www.gmail.com" bgColor="black" />{"  "}
+              &nbsp;&nbsp;{props.data ? props.data.email : "loading"}
             </p>
-            <p style={{ paddingLeft: "20px;" }}>&nbsp;&nbsp;{props.data ? props.data.email : "loading"}</p>
           </div>
         </div>
       </div>
