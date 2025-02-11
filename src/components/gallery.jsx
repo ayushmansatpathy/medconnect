@@ -8,7 +8,7 @@ export const Gallery = (props) => {
         <div className="section-title">
           <h2>TRACKS</h2>
           <p>
-            Take control of your career path and choose your direction.
+            Take the Reins of Your Career and Shape Your Future
           </p>
         </div>
         <div className="row">

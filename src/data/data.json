@@ -1,7 +1,7 @@
 {
   "Header": {
-    "title": "Welcome to MedConnect.",
-    "paragraph": "From Campus to Clinic."
+    "title": "Welcome to MedConnect",
+    "paragraph": "From Campus to Clinic"
   },
   "About": {
     "paragraph1": "MedConnect UMass seeks to connect UMass students interested in Pre-Health careers to gain more hands-on experience within the medical field in order to have a better understanding of what their future could entail. We plan on hosting an ongoing speaker series from hospital employees on topics ranging from their various fields of medicine and their daily routine to health disparities in the community. The club will connect students to local hospitals and clinics to gain knowledge within different specializations to find their interests and delve deeper.",
@@ -520,6 +520,18 @@
       "caption": "Why I Joined: Clinical experience often plays a pivotal role in someone's certainty of a career in healthcare. My Experience: Shadowing opportunities in both nephrology and the ICU assured me that pursuing a career in medicine is worth it. I am currently in the BaccMD Pathway Program, which provides students with clinical immersion at UMass Chan Medical School."
     },
     {
+      "img": "img/eboard/saranya.png",
+      "name": "Saranya Sribalahara",
+      "job": "Treasurer",
+      "caption": "I joined med connect to help students like me learn more about the opportunities available and set themselves up for success in the future. I am an EMT working in Lawrence doing 911s and IFTs, I have done volunteering work at my local hospital in the Emergency Department along with the Cancer center"
+    },
+    {
+      "img": "img/eboard/kaushal.jpeg",
+      "name": "Kaushal Kasina",
+      "job": "Pre-Med Chair",
+      "caption": "I joined to help students seeking clinical and research experience in order to be well-prepared before entering their respective pre-health fields. I currently work as a PCA at UMass Memorial and work at a research lab at UMass Chan Medical school in the Albert Sherman Center. "
+    },
+    {
       "img": "img/eboard/ayushman.jpeg",
       "name": "Ayushman Satpathy",
       "job": " IT Director",
@@ -530,12 +542,6 @@
       "name": "Rhea Mallya",
       "job": "IT Director",
       "caption": "I joined MedConnect to leverage my experience in data science and IT by helping to develop the website and overseeing the IT sector of the club. My involvement in a biostatistics research, where I used AI/machine learning models to analyze the top ten predictors of diabetes, sparked my interest in integrating technology with healthcare and motivated me to explore this field further."
-    },
-    {
-      "img": "img/eboard/kaushal.jpeg",
-      "name": "Kaushal Kasina",
-      "job": "Pre-Med Chair",
-      "caption": "I joined to help students seeking clinical and research experience in order to be well-prepared before entering their respective pre-health fields. I currently work as a PCA at UMass Memorial and work at a research lab at UMass Chan Medical school in the Albert Sherman Center. "
     },
     {
       "img": "img/eboard/surya.jpeg",
@@ -557,7 +563,7 @@
     },
     {
       "img": "img/eboard/katherine.jpeg",
-      "name": "Katherine Poirier",
+      "name": "Katie Poirier",
       "job": "Fundraising Coordinator",
       "caption": "I joined MedConnect because I thought it would be the perfect way to get more involved in the UMass community as well as learn more about different parts of the medical field, as I just transferred to UMass in the spring. In the fall of my sophomore year, I decided that I wanted to pursue a career in the medical field, so up until recently I have not been too involved in the field, besides clubs from UMass and my old school. However, this summer I did have an internship with an optometrist where I could gain clinical, hands-on experience while also conducting research and writing up a research presentation on a patient with an extraordinary case. I have also been shadowing with a general dentist weekly throughout the summer and plan to continue to shadow different parts of the field. "
     },
@@ -566,12 +572,6 @@
       "name": "Diya Asawa",
       "job": "PR Manager",
       "caption": ""
-    },
-    {
-      "img": "img/eboard/saranya.png",
-      "name": "Saranya Sribalahara",
-      "job": "Treasurer",
-      "caption": "I joined med connect to help students like me learn more about the opportunities available and set themselves up for success in the future. I am an EMT working in Lawrence doing 911s and IFTs, I have done volunteering work at my local hospital in the Emergency Department along with the Cancer center"
     }
   ],
   "Contact": {

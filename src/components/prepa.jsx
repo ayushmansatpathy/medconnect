@@ -123,7 +123,7 @@ export const Prepa = (props) => {
                 </button>
             </div>
             <section style={styles.calendarSection}>
-                <h2 style={styles.sectionTitle}>📅 Calendar</h2>
+                <h2 style={styles.sectionTitle}>Calendar</h2>
                 <p style={styles.sectionText}>
                     Upcoming events and important dates will be displayed here soon! Stay
                     tuned for updates about workshops, guest speakers, and more.
@@ -133,7 +133,7 @@ export const Prepa = (props) => {
             {/* Opportunities and Certifications */}
             <div style={styles.sectionWrapper}>
                 <section style={styles.section}>
-                    <h2 style={styles.sectionTitle}>🎯 Opportunities</h2>
+                    <h2 style={styles.sectionTitle}>Opportunities</h2>
                     <p style={styles.sectionText}>
                         Discover shadowing programs, dental internships, and volunteer
                         opportunities to enhance your pre-dental journey. Connect with local
@@ -142,8 +142,8 @@ export const Prepa = (props) => {
                 </section>
 
                 <section style={styles.section}>
-                    <h2 style={styles.sectionTitle}>🏆 Certifications</h2>
-                    <h3>Certified Nursing Assistant and Patient Care Technician Certifications</h3>
+                    <h2 style={styles.sectionTitle}>Certifications</h2>
+                    <h3>Certified Nursing Assistant (CNS) & Patient Care Technician</h3>
                     <p style={styles.sectionText}>
                         {props.data
                             ? props.data.PrePACert.nursing.map((d, i) => (

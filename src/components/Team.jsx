@@ -12,7 +12,7 @@ export const Team = (props) => {
         <div className="col-md-8 col-md-offset-2 section-title">
           <h2>Meet the Team</h2>
           <p>
-            Meet the Eboard!
+            Get to Know the Faces Leading Our Club with Passion!
           </p>
         </div>
         <div id="row">

@@ -5,7 +5,10 @@ import { ErrorBoundary } from "react-error-boundary";
 
 export const Premed = (props) => {
     const navigate = useNavigate();
-
+    // function toggleDropdown(id) {
+    //     let content = document.getElementById(id);
+    //     content.style.display = (content.style.display === "none" || content.style.display === "") ? "block" : "none";
+    // }
     const handleTrackNavigate = (track) => {
         navigate(`/${track}`);
     };
@@ -109,23 +112,23 @@ export const Premed = (props) => {
 
                         onClick={() => handleTrackNavigate('premed')}
                     >
-                        View Premed
+                        Pre-Med
                     </button>
                     <button
 
                         onClick={() => handleTrackNavigate('predent')}
                     >
-                        View Predent
+                        Pre-Dent
                     </button>
                     <button
 
                         onClick={() => handleTrackNavigate('prepa')}
                     >
-                        View PrePA
+                        Pre-PA
                     </button>
                 </div>
                 <section style={styles.calendarSection}>
-                    <h2 style={styles.sectionTitle}>📅 Calendar</h2>
+                    <h2 style={styles.sectionTitle}>Calendar</h2>
                     <p style={styles.sectionText}>
                         Upcoming events and important dates will be displayed here soon! Stay
                         tuned for updates about workshops, guest speakers, and more.
@@ -135,7 +138,7 @@ export const Premed = (props) => {
                 {/* Opportunities and Certifications */}
                 <div style={styles.sectionWrapper}>
                     <section style={styles.section}>
-                        <h2 style={styles.sectionTitle}>🎯 Opportunities</h2>
+                        <h2 style={styles.sectionTitle}>Opportunities</h2>
                         <p style={styles.sectionText}>
                             Discover shadowing programs, dental internships, and volunteer
                             opportunities to enhance your pre-dental journey. Connect with local
@@ -144,9 +147,9 @@ export const Premed = (props) => {
                     </section>
 
                     <section style={styles.section}>
-                        <h2 style={styles.sectionTitle}>🏆 Certifications</h2>
-                        <h3>Certified Nursing Assistant and Patient Care Technician Certifications</h3>
-                        <p style={styles.sectionText}>
+                        <h2 style={styles.sectionTitle}>Certifications</h2>
+                        <h3 >Certified Nursing Assistant (CNS) & Patient Care Technician</h3>
+                        <p id='premed' style={styles.sectionText}>
                             {props.data
                                 ? props.data.PreMedCert.nursing.map((d, i) => (
                                     <div key={`${d.name}-${i}`}>

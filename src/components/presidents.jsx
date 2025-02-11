@@ -9,35 +9,30 @@ export const Presidents = (props) => {
         <div className="section-title text-center">
           <h2>Meet the Presidents</h2>
           <p>
-            Get to know the leaders of our club who guide us with passion and dedication.
+            Introducing the Presidents Who Make Our Club Thrive
           </p>
         </div>
-        <div className="row align-items-start">
-          <div className="col-md-5">
-            {props.data && props.data.length > 0 ? (
-              props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`}>
-                  <div>
-                    <Popup trigger={<button><img src={d.img} alt={d.name} className="team-img" /></button>} modal>
-                      <div className="caption">
-                        <h3>{d.name}</h3>
-                        <p>{d.job}</p>
-                      </div>
-                    </Popup>
-                    <div className="caption">
-                      <h4>{d.name}</h4>
-                      <p>{d.job}</p>
-                    </div>
+        <div className="row">
+          {props.data && props.data.length > 0 ? (
+            props.data.map((d, i) => (
+              <div className="col-md-3" key={`${d.name}-${i}`}>
+                <Popup trigger={<button><img src={d.img} alt={d.name} className="team-img" /></button>} modal>
+                  <div className="caption">
+                    <h3>{d.name}</h3>
+                    <p>{d.job}</p>
                   </div>
+                </Popup>
+                <div className="caption">
+                  <h4>{d.name}</h4>
+                  <p>{d.job}</p>
                 </div>
-              ))
-            ) : (
-              <p>Loading presidents' details...</p>
-            )}
-          </div>
-          <div className="col-md-7">
-            <img className="blurb" src="img/blurb.png" alt="herro" />
-          </div>
+              </div>
+            ))
+          ) : (
+            <p>Loading presidents' details...</p>
+          )}
+          <img className="blurb col-md-6" src="img/blurb.png" alt="herro" />
+
         </div>
       </div>
     </div>
